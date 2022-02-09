@@ -6,6 +6,7 @@ settings:
   webhook_url: https://google.com
 
   # signing key for JWT token, you should keep this value in secret place
+  # JWT token will be used when executing Hub APIs, JWT token will be in the headers.
   jwt_secret: p@ssWord0
   # JWT token will expire after {this value} seconds
   access_token_expire_sec: 3600
