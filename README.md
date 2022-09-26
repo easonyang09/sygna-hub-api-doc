@@ -82,5 +82,5 @@ HANDLE_EMAIL_PROTOCOL_PERMISSION_REQUEST_ERROR | There is an unexpected error(s)
 SEND_EMAIL_PROTOCOL_DEPOSIT_ERROR | There is an unexpected error(s) when you requested the originator VASP to provide the originator customer information via the email protocol. Please refer to the error message. | Beneficiary VASP | No | 02000 02001 02002 02003 02009 99999
 SEND_EMAIL_PROTOCOL_PERMISSION_ERROR | There is an unexpected error(s) when you send permission to the originator VASP via email protocol. Please refer to the error message. | Beneficiary VASP | No | 02001 99999
 RECEIVE_APPROVED_TRANSACTION_LOW_RISK | You've received data transfer approved by beneficiary VASP which is low risk | Originator VASP | No | no error code is applicable |
-RECEIVE_APPROVED_TRANSACTION_HIGH_RISK | You've received data transfer approved by beneficiary VASP which is high risk | Originator VASP | No | normal, no error code is applicable |
+RECEIVE_APPROVED_TRANSACTION_HIGH_RISK | You've received data transfer approved by beneficiary VASP which is high risk | Originator VASP | No | no error code is applicable |
 RECEIVE_DATA_TRANSFER_TRANSACTION | Receiving a data transfer. Please accept or reject this data transfer from originator VASP by hitting PATCH /permission | Beneficiary VASP | No | no error code is applicable |
