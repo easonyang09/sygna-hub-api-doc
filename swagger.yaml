@@ -1277,13 +1277,663 @@ paths:
             '*/*':
               schema:
                 type: object
+                x-examples:
+                  Example 1:
+                    data:
+                      - id: 420c1b99-8cd2-4fdd-a046-0cfaad0981c6
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: BHEXSGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: BHOP Consulting Pte. Ltd.
+                        extra_info:
+                          country_code: SG
+                          regulatory_status: Exempt
+                          supervisory_authority: Monetary Authority of Singapore (MAS)
+                          vasp_pubkey: 04eab7947f77f00a66a4560188fede4aeebad361f013d43e4297bc04a77fd3d3bbab4f069ecb3c4fff52cc6807740b7e2057e9aa1022e6879ff5c55dc5d838485b
+                        vasp_server_status: unknown
+                      - id: 9e7b16f4-10ea-445c-9599-a7633f0d4e2d
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: BTOPTWTP
+                        protocol: Sygna_Bridge
+                        vasp_name: 英屬維京群島商幣託科技有限公司台灣分公司 ( BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH )
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 045aa7227cff46db9addba0b90fb90d6d46a4365bca2ce894193e56a97f429fdb4774b0f43a78f183e6c31a648c0795225f33454b7443221b7589d96728dac613a
+                        vasp_server_status: unknown
+                      - id: aa393f82-6fe8-4745-abd1-ef64d30441e4
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: BTSNKRSE
+                        protocol: Sygna_Bridge
+                        vasp_name: Bitsonic Inc
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 04953a1ac8e4cf7776f6b74f6aaf308b6534a4128a2dd1305e6c02c32e87fc5482333c6d14995741848ec10d9ba8d2324a8da12f5c541462d3afcedb2a6c312a34
+                        vasp_server_status: unknown
+                      - id: 26360ab2-79fc-40b8-9199-c0dcdb42a5ac
+                        created_at: '2022-10-08T04:47:53.721Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: CATHTWTP
+                        protocol: Sygna_Bridge
+                        vasp_name: Cathay United Bank
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 048af64876c6a1a220970e7bfe5fc92a814881d8aa6a765755ec4c70260d55097e8289d5590dbdc728593d13ca0334b0107f1dfb473c9f42ebc5b4070ff213841b
+                        vasp_server_status: unknown
+                      - id: 99c23bda-3f0a-4083-ae2a-3f95cdc1c07e
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: CCLESGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: Coincola Pte. Ltd
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 049de9064993470442810e03e5335985c82ee32772016c7b56966def0651521ea0242620af2545b45fcb6a850c4a4c71ad8768538bad76aac0e37a629aa508b30c
+                        vasp_server_status: unknown
+                      - id: c9e8976c-7cf4-486e-bccf-022ea82d1df8
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: DIGISGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: DigiFinex Pte. Ltd.
+                        extra_info:
+                          country_code: SG
+                          regulatory_status: Exempt
+                          supervisory_authority: Monetary Authority of Singapore (MAS)
+                          vasp_pubkey: 040502abe53769ddb40d4cece63b83ea553520dfe52028d37d5b11fc0f680698ea619754fbca0d2aea0414733248bda496217d2f0ac1eb30366c18ab1a2f90d1a2
+                        vasp_server_status: unknown
+                      - id: 311b7b94-7bc1-4b18-85d8-1f8e90b167e7
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: DMMBJPJT
+                        protocol: Sygna_Bridge
+                        vasp_name: 'DMM Bitcoin Co., Ltd.'
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 04daf3c35241f286b12213781a485f58612aeb617348fd85409a72648ba88f388cdf68701a4faf3e65621029e6936b04afed06051112f1b9f7306c52f60fe8789c
+                        vasp_server_status: unknown
+                      - id: 0cea018e-42ec-4c3e-8a12-c40443efc757
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: HAKOSGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: Hako Technology Pte. Ltd.
+                        extra_info:
+                          country_code: SG
+                          regulatory_status: Exempt
+                          supervisory_authority: Monetary Authority of Singapore (MAS)
+                          vasp_pubkey: 04e73374456662c421a78e725d5c0a6340c59d3e2e16ce9dca834b34eb52f60b14fee488485bf81d1c6c2a3fa709f1bc5689fdf18c7bc876d5363e13bf4612d443
+                        vasp_server_status: unhealthy
+                      - id: 60fa2331-7441-4d97-bb1f-6bac604d16b7
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: IMSGSGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: Intellect Market Pte Ltd
+                        extra_info:
+                          country_code: SG
+                          regulatory_status: Exempt
+                          supervisory_authority: Monetary Authority of Singapore (MAS)
+                          vasp_pubkey: 04338c4acf1af5a50101ca63184ff721773d8b1c3348b19ef1adb5944078d45f73a830f6f55c4dffc4788220cd570f6898caab06123cec13527020afaefc864c11
+                      - id: b3cb8c33-cd77-4b8d-b13e-b0412a7fdfdb
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: IREXSGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: Independent Reserve SG Pte. Ltd.
+                        extra_info:
+                          country_code: SG
+                          regulatory_status: Exempt
+                          supervisory_authority: Monetary Authority of Singapore (MAS)
+                          vasp_pubkey: 04a985c04e0bc84d9bf63dc16618ab476545df2149893e731632988f3f5135c4ace62c45b4b0a1ff263bacb5e30361d49a665d5a1f230bf83cc00d8617d46e9790
+                        vasp_server_status: unknown
+                      - id: 765cad81-b18b-4aad-9bb2-e6a1b891ff9c
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: MAICTWTP
+                        protocol: Sygna_Bridge
+                        vasp_name: 'Modernity Financial Technologies, Ltd.'
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 04ab94a4e616679f42deccea08f79c6072fe74cc13cb6dc3aa6eb950d084fc4679711a06c6bb674cf95dad9a831ec94f5c3fe0e913096fcd9c6431ce4a8b0ead87
+                        vasp_server_status: unknown
+                      - id: e3672b24-6fd7-451b-a163-cf048be68e53
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: NEMSSGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: Net Marketing Services Pte Ltd
+                        extra_info:
+                          country_code: SG
+                          regulatory_status: Exempt
+                          supervisory_authority: Monetary Authority of Singapore (MAS)
+                          vasp_pubkey: 04416b15ed4da0bcdf4f90c85aea6a0b0d6528594f98ff93f75d1fe19939d10ee002dbb5238d3d9eb1a48ca5c2de2424854b686bd5a6d394ad6cde55c28c5ae49b
+                        vasp_server_status: healthy
+                      - id: b7807021-159d-4962-8a29-229e3e654100
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: ONCTSGS2
+                        protocol: Sygna_Bridge
+                        vasp_name: Onchain Custodian Pte. Ltd.
+                        extra_info:
+                          country_code: SG
+                          regulatory_status: Exempt
+                          supervisory_authority: Monetary Authority of Singapore (MAS)
+                          vasp_pubkey: 04598d9f4e00b56af3f9306d37f4006c9416921f418a24b9c5da84de4dd7ae6898daa73c47d878a74dcf5563975d426cdfb62db952410b654fa882dfbda5a87231
+                        vasp_server_status: unknown
+                      - id: 5743a68e-eecc-4528-8e90-8a9a3a85a588
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: PNEXSGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: PIONEX PTE. LTD.
+                        extra_info:
+                          country_code: SG
+                          regulatory_status: Exempt
+                          supervisory_authority: Monetary Authority of Singapore (MAS)
+                          vasp_pubkey: 04499d605e18744b0a9eb753a8dffc849fdad2c0133ffc4a84ea75685d7bb770351dd5f4aa00328593c2d228e8a626d66fb2ecb5d67a80c233572d6efef7740897
+                      - id: 03e67b3a-0e3b-4feb-87f6-900fc344a388
+                        created_at: '2022-09-15T09:21:24.095Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: PXPLSGSG
+                        protocol: Sygna_Bridge
+                        vasp_name: Pundi X Labs. Pte. Ltd
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 04a890216bb10e362946828341dc6a4e744b104ec2029565f3eda8e5b4c112b83c1fd481778136800ea59950fdf85478c24c7a7f73302c45eb497e1b91982dca6c
+                        vasp_server_status: unhealthy
+                      - id: e97ddcf7-7928-452f-9b85-d4bd05c2ea2f
+                        created_at: '2022-09-05T01:36:48.248Z'
+                        updated_at: '2022-09-29T10:17:19.199Z'
+                        vasp_identifier: SBIEJPTK
+                        protocol: Sygna_Bridge
+                        vasp_name: 'SBI VC Trade Co., Ltd.'
+                        extra_info:
+                          country_code: JP
+                          license_registration_id: |-
+                            Kanto Finance Bureau Director
+                            No. 00005
+                          regulatory_status: Regulated
+                          supervisory_authority: Financial Services Authority
+                          vasp_other_name: 'SBI VC Trade Co., Ltd.'
+                          vasp_pubkey: 04f5210d3774c6c50f67a98fd9f2deeff03f77d9866addaedf5da392d0b9e705a5dc0eabf567d24d5192532dd087c13d1d224a18ac0340a1cdead51b3085929895
+                        vasp_server_status: unknown
+                      - id: 7461ff55-5438-4806-be15-829f2097d212
+                        created_at: '2022-10-17T11:18:45.581Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: SYCBTWTP
+                        protocol: Sygna_Bridge
+                        vasp_name: Sygna DEMO Exchange (Bridge/Prod)
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 0454d663751803ebb454e8e19c65d00963ca433584c7eb876abdc7b5df88d8a438f6866dcfa803496a123ab2c6f456f6f9c928ac932da586f754236465b11cf994
+                        vasp_server_status: unknown
+                      - id: 865dbf3e-fd09-43f6-95c8-0f4b952bc0c8
+                        created_at: '2022-10-25T10:39:17.479Z'
+                        updated_at: '2022-12-14T07:15:32.945Z'
+                        vasp_identifier: SYCCTWTP
+                        protocol: Sygna_Bridge
+                        vasp_name: "Sygna DEMO Exchange 2 (Bridge/Prod)\t"
+                        extra_info:
+                          regulatory_status: Not Regulated Yet
+                          vasp_pubkey: 0454d663751803ebb454e8e19c65d00963ca433584c7eb876abdc7b5df88d8a438f6866dcfa803496a123ab2c6f456f6f9c928ac932da586f754236465b11cf994
+                        vasp_server_status: unknown
+                      - id: f0dbe4fb-0c1c-4b6c-9222-172d454befbc
+                        created_at: '2022-09-07T00:00:40.302Z'
+                        updated_at: '2022-09-07T00:00:40.302Z'
+                        vasp_identifier: 0ffc99d8-4467-4907-9628-a17c21350358
+                        protocol: TRISA
+                        vasp_name: HODL Bitcoin ATMs
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-48f7757ea7a2aa0bba23142528312217.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-48f7757ea7a2aa0bba23142528312217.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Kiosk
+                          verified_on: '2022-09-06T19:33:56Z'
+                          website: 'https://hodlatm.com'
+                      - id: aff60e5c-d6e4-4ed0-801f-b5bf90e3f7a3
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 17068f9b-9014-463f-9c93-2cdc9733d05d
+                        protocol: TRISA
+                        vasp_name: HODLNAUT PTE. LTD.
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa.ext.g-o.cyou
+                          country: SG
+                          endpoint: 'trisa.ext.g-o.cyou:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Other
+                          verified_on: '2022-02-23T14:50:51Z'
+                          website: 'https://www.hodlnaut.com/'
+                      - id: b069d418-6c15-4679-b706-22502eb8c0d2
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 403a14e6-6695-4558-a63a-b31ef97e7061
+                        protocol: TRISA
+                        vasp_name: Anchorage Digital Bank
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-e5092cf51f8885435fb76035ce2652b4.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-e5092cf51f8885435fb76035ce2652b4.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Custodian
+                          verified_on: '2021-10-22T21:22:14Z'
+                          website: 'https://www.anchorage.com/'
+                      - id: ab32731b-4d5c-4942-b53c-a204b4c48dae
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 54d14514-60d5-4357-97d1-39c357132982
+                        protocol: TRISA
+                        vasp_name: Wallet Solutions OÜ
+                        extra_info:
+                          business_category: 1
+                          common_name: trisa.walletsolutions.eu
+                          country: EE
+                          endpoint: 'trisa.walletsolutions.eu:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - P2P
+                            - Custody Provider
+                            - Mixer
+                            - Individual
+                          verified_on: '2022-06-28T15:25:30Z'
+                          website: 'https://walletsolutions.eu/'
+                      - id: 06e213a4-2e29-4368-b85b-29554d615eb6
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 58e6295c-c12b-4685-aeb0-dffb781550fe
+                        protocol: TRISA
+                        vasp_name: Spectro Finance OÜ
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa.spectrocoin.com
+                          country: EE
+                          endpoint: 'trisa.spectrocoin.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Custody Provider
+                          verified_on: '2022-06-07T13:25:27Z'
+                          website: 'https://spectrocoin.com'
+                      - id: 99338f1b-7abb-4d20-b673-890bea94b7e8
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 599f1eaf-e536-4235-a0e2-e1d90e01e019
+                        protocol: TRISA
+                        vasp_name: Firstbloc
+                        extra_info:
+                          business_category: 3
+                          common_name: fiblgigi.trisa.travelrule.sygna.io
+                          country: GI
+                          endpoint: 'fiblgigi.trisa.travelrule.sygna.io:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                          verified_on: '2022-08-03T16:24:58Z'
+                          website: 'https://firstbloc.net'
+                      - id: 8f2fb026-f16b-4ac3-9238-c00f8814c652
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 637ec3d7-f8fb-4b78-9f1e-89ce10b3a7c2
+                        protocol: TRISA
+                        vasp_name: bit4You SA
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa.bit4you.com
+                          country: BE
+                          endpoint: 'trisa.bit4you.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                          verified_on: '2022-07-19T15:31:52Z'
+                          website: 'https://www.bit4you.io'
+                      - id: e6bb9f19-1d1f-47d3-8a32-5388076bf4cf
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 65ed0f2d-738c-43eb-ad84-1da6ae3e74aa
+                        protocol: TRISA
+                        vasp_name: Evvy Tech
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-a1bc76b515c6ac6735288b7710090b9b.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-a1bc76b515c6ac6735288b7710090b9b.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Kiosk
+                          verified_on: '2022-08-23T13:51:34Z'
+                          website: 'https://www.evvy.tech/'
+                      - id: 2a847642-1fcb-4500-a8f3-67d4247ff3b0
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 889a6a5d-17fc-4ffd-95d6-c580f2a1f39f
+                        protocol: TRISA
+                        vasp_name: Finstream OÜ
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa.broxus.com
+                          country: EE
+                          endpoint: 'trisa.broxus.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                          verified_on: '2022-08-09T14:11:39Z'
+                          website: 'https://broxus.com/'
+                      - id: 12a59bf1-c752-4f3f-89f2-ed2d72688c4e
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 95a91665-fdd8-4e77-9f52-4dc814a05a94
+                        protocol: TRISA
+                        vasp_name: Coins.ph
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-ef0b2b13f6ee424ffa90868d55d9cafd.traveler.ciphertrace.com
+                          country: PH
+                          endpoint: 'trisa-ef0b2b13f6ee424ffa90868d55d9cafd.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                          verified_on: '2021-08-16T20:05:34Z'
+                          website: 'http://www.coins.ph'
+                      - id: 09c764c6-4003-459e-8ab4-806b9a9fd93d
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: 9ccfa04a-4d64-475a-af63-76610fc553df
+                        protocol: TRISA
+                        vasp_name: BitcoinX ATM
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-1f9f320ba1298903e4969942873c6320.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-1f9f320ba1298903e4969942873c6320.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Kiosk
+                          verified_on: '2022-06-28T15:02:31Z'
+                          website: 'https://www.bitcoinxatm.com'
+                      - id: b9fbe4a2-dc21-4a75-b63f-b27dbfa23da8
+                        created_at: '2022-10-25T15:15:34.305Z'
+                        updated_at: '2022-10-25T15:15:34.305Z'
+                        vasp_identifier: b2fddf21-6f48-4162-ba88-a0516355704d
+                        protocol: TRISA
+                        vasp_name: PT INDODAX NASIONAL INDONESIA
+                        extra_info:
+                          business_category: 0
+                          common_name: trisa-338f23c07d5ecc9d33d84218b0cad155.traveler.ciphertrace.com
+                          country: ID
+                          endpoint: 'trisa-338f23c07d5ecc9d33d84218b0cad155.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                          verified_on: '2022-10-25T14:50:42Z'
+                          website: 'https://indodax.com/'
+                      - id: 996fc2e2-a422-41e9-8197-deed604ac765
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: b3d4b4e3-0b3b-4c63-9ff5-3bcc5950c171
+                        protocol: TRISA
+                        vasp_name: HAKO TECHNOLOGY PTE. LTD
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa.coinhako.com
+                          country: SG
+                          endpoint: 'trisa.coinhako.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                          verified_on: '2021-08-25T15:55:19Z'
+                          website: 'https://www.coinhako.com/'
+                      - id: fd07c7dc-fa84-4d71-ae8e-f468123aafc2
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: bb67f447-49e0-4837-bbb9-ce51bc6f07ce
+                        protocol: TRISA
+                        vasp_name: COOLBITX LTD. TAIWAN BRANCH (CAYMAN) - VASPTEST2
+                        extra_info:
+                          business_category: 3
+                          common_name: sygntwtp.trisa.travelrule.sygna.io
+                          country: TW
+                          endpoint: 'sygntwtp.trisa.travelrule.sygna.io:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Other
+                          verified_on: '2022-03-02T20:32:59Z'
+                          website: 'https://www.sygna.io/'
+                      - id: 50eef29f-6ca5-4aed-b8de-98a3aa33cb30
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: c76f3e5c-9dab-46f9-b4c9-2f7db2b8c393
+                        protocol: TRISA
+                        vasp_name: HodlBum
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-c327971d429e36c94317696542584a17.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-c327971d429e36c94317696542584a17.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Kiosk
+                          verified_on: '2021-12-29T17:02:40Z'
+                          website: 'http://www.hodlbum.com'
+                      - id: 43d07873-a512-4dee-875f-18d180b590cd
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: cf1fac9f-9356-4a1a-a9c2-aa3cbde97857
+                        protocol: TRISA
+                        vasp_name: HashKey
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-da3e806b3917654ea8a1cf26a1644bdf.traveler.ciphertrace.com
+                          country: HK
+                          endpoint: 'trisa-da3e806b3917654ea8a1cf26a1644bdf.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                          verified_on: '2022-03-28T16:09:47Z'
+                          website: 'https://www.hashkey.com/'
+                      - id: 596cd19b-3e45-4884-97b5-a4945895295c
+                        created_at: '2022-11-22T16:15:31.055Z'
+                        updated_at: '2022-11-22T16:15:31.055Z'
+                        vasp_identifier: cf338e98-4ed0-44e3-8476-2ab793b0c03f
+                        protocol: TRISA
+                        vasp_name: Coinspaid
+                        extra_info:
+                          business_category: 0
+                          common_name: trisa-fd0e28d4d7c272b8c13c815aa38e7a50.traveler.ciphertrace.com
+                          country: EE
+                          endpoint: 'trisa-fd0e28d4d7c272b8c13c815aa38e7a50.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                            - Custody Provider
+                          verified_on: '2022-11-22T15:38:06Z'
+                          website: 'https://coinspaid.com/'
+                      - id: ce4415e1-1a8b-44f4-aeb3-51ce1f2009e8
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: da34fdc1-70c2-418c-91bf-51df7c74b8ad
+                        protocol: TRISA
+                        vasp_name: Apex Crypto
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-67a9264b27247590d0cb0e2f1a7630c9.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-67a9264b27247590d0cb0e2f1a7630c9.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                            - Other
+                          verified_on: '2022-03-11T12:46:51Z'
+                          website: 'https://apexcrypto.com'
+                      - id: 9e5c86ca-4b0a-4e9c-af13-940e6d37af42
+                        created_at: '2022-10-12T14:15:34.178Z'
+                        updated_at: '2022-10-31T19:15:31.583Z'
+                        vasp_identifier: df8e719a-a0b9-42d2-b821-32503747fb2c
+                        protocol: TRISA
+                        vasp_name: OmegaZulu
+                        extra_info:
+                          business_category: 1
+                          common_name: trisa-8cd0802b4878067ca97fb4537c9355ef.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-8cd0802b4878067ca97fb4537c9355ef.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Kiosk
+                          verified_on: '2022-10-12T13:55:42Z'
+                          website: 'https://omegazulu.com'
+                      - id: 9864dba2-981f-4493-943a-a616fb03f43e
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: e63b52c9-d868-4b06-adbe-3bb6fee2077c
+                        protocol: TRISA
+                        vasp_name: Net Marketing Services Pte Ltd
+                        extra_info:
+                          business_category: 3
+                          common_name: nemssgsg.trisa.travelrule.sygna.io
+                          country: SG
+                          endpoint: 'nemssgsg.trisa.travelrule.sygna.io:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - OTC
+                          verified_on: '2022-01-21T16:30:56Z'
+                          website: 'https://www.ecurrencyzone.com/'
+                      - id: f93569a6-dcd4-4264-b121-49205d866a26
+                        created_at: '2022-09-27T00:00:40.210Z'
+                        updated_at: '2022-09-27T00:00:40.210Z'
+                        vasp_identifier: e799d910-8411-42b0-8b70-713e27916991
+                        protocol: TRISA
+                        vasp_name: RockItCoin
+                        extra_info:
+                          business_category: 0
+                          common_name: trisa-ce100825de90144b121d737b7bf069d9.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-ce100825de90144b121d737b7bf069d9.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Kiosk
+                          verified_on: '2022-09-26T17:04:13Z'
+                          website: 'https://www.rockitcoin.com'
+                      - id: eac38ca1-67f2-4900-8160-ae0c26626442
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: e94f44a6-bba5-4c2d-acb5-3f9d734db72c
+                        protocol: TRISA
+                        vasp_name: XREX
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa-f688635922c7cac67db31db91ea43d3d.traveler.ciphertrace.com
+                          country: KY
+                          endpoint: 'trisa-f688635922c7cac67db31db91ea43d3d.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                          verified_on: '2021-11-02T15:05:49Z'
+                          website: 'https://www.xrex.io/'
+                      - id: 4f55eeb9-e09e-4b6a-a38a-b292e570633d
+                        created_at: '2022-12-06T00:15:31.496Z'
+                        updated_at: '2022-12-06T00:15:31.496Z'
+                        vasp_identifier: fb48e926-468d-4a58-a20c-be9a984c736e
+                        protocol: TRISA
+                        vasp_name: Webull Pay
+                        extra_info:
+                          business_category: 0
+                          common_name: trisa-617565a7f758ff74df322be37688229e.traveler.ciphertrace.com
+                          country: US
+                          endpoint: 'trisa-617565a7f758ff74df322be37688229e.traveler.ciphertrace.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - P2P
+                          verified_on: '2022-11-29T21:28:54Z'
+                          website: 'https://www.webull-us.com'
+                      - id: 1afa7780-e00c-4755-86a9-79b04a1d9d29
+                        created_at: '2022-09-02T00:00:40.316Z'
+                        updated_at: '2022-09-02T00:00:40.316Z'
+                        vasp_identifier: fc659828-747d-48e3-afab-622ec34cfabb
+                        protocol: TRISA
+                        vasp_name: 'Coin Cafe, Inc.'
+                        extra_info:
+                          business_category: 3
+                          common_name: trisa.coincafe.com
+                          country: US
+                          endpoint: 'trisa.coincafe.com:443'
+                          registered_directory: vaspdirectory.net
+                          vasp_categories:
+                            - Exchange
+                            - Kiosk
+                            - Custodian
+                            - OTC
+                          verified_on: '2022-02-23T22:51:56Z'
+                          website: 'https://coincafe.com'
                 properties:
                   data:
                     type: array
                     items:
-                      $ref: '#/components/schemas/model.GlobalVasp'
-                  schema.Resp:
-                    $ref: '#/components/schemas/schema.Resp'
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        created_at:
+                          type: string
+                        updated_at:
+                          type: string
+                        vasp_identifier:
+                          type: string
+                          description: 'Sygna: VASP code; TRISA: Member ID'
+                        protocol:
+                          type: string
+                        vasp_name:
+                          type: string
+                          description: complete VASP name
+                        extra_info:
+                          type: object
+                          description: extra_info content will be different depend on the protocol that VASP belongs to
+                          properties:
+                            country_code:
+                              type: string
+                            regulatory_status:
+                              type: string
+                              description: 'information from Sygna parter: VASPnet'
+                            supervisory_authority:
+                              type: string
+                              description: 'information from Sygna parter: VASPnet'
+                            vasp_pubkey:
+                              type: string
+                            business_category:
+                              type: integer
+                              description: 'information from Sygna partner: TRISA'
+                            common_name:
+                              type: string
+                              description: TRISA VASP's common ID
+                            country:
+                              type: string
+                            endpoint:
+                              type: string
+                              description: TRISA Service Endpoint
+                            registered_directory:
+                              type: string
+                              description: 'information from Sygna partner: TRISA'
+                            vasp_categories:
+                              type: array
+                              description: 'information from Sygna partner: TRISA'
+                              items:
+                                type: string
+                            verified_on:
+                              type: string
+                              description: 'information from Sygna partner: TRISA'
+                            website:
+                              type: string
+                              description: 'information from Sygna partner: TRISA'
+                        vasp_server_status:
+                          type: string
+                          description: 'Sygna VASP server health check status: healthy, unhealthy or unknown'
         '400':
           description: Bad Request
           content:
